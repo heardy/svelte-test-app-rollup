@@ -1,3 +1,9 @@
+# svelte test app rollup
+
+In [App.html](src/App.html), importing a svelte component both from a node module directly and via index API works fine. ie.
+
+Either `import Foo from 'svelte-module-test/Foo.html'` or `import { Foo } from 'svelte-module-test'` works.
+
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
